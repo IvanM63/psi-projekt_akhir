@@ -16,7 +16,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginTop="-24dp"
-        android:background="@drawable/rectangle"
+        android:background="@drawable/rtngl"
         android:viewportWidth="375"
         android:viewportHeight="127">
 
@@ -31,9 +31,9 @@
         <Button
             android:layout_width="24dp"
             android:layout_height="24dp"
-            android:layout_marginTop="58dp"
             android:layout_marginLeft="335dp"
-            android:background="@drawable/notification_bell"
+            android:layout_marginTop="58dp"
+            android:background="@drawable/notif"
             />
 
         <TextView
@@ -78,14 +78,13 @@
     <FrameLayout
         android:id="@+id/frame_167"
         android:layout_width="338dp"
-        android:layout_height="80dp"
+        android:layout_height="60dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="18dp"
         android:layout_marginTop="100dp"
-        android:background="@drawable/kotak_saldo">
-    </FrameLayout>
-
+        android:background="@drawable/frame_sal"
+        ></FrameLayout>
     <TextView
         android:id="@+id/saldo"
         android:layout_width="45dp"
@@ -98,7 +97,6 @@
         android:gravity="top"
         android:lineSpacingExtra="-2sp"
         android:text="Saldo"
-        android:textStyle="bold"
         android:textColor="#22292E"
         android:textSize="17sp" />
 
@@ -116,28 +114,27 @@
         android:text="Rp.20.000"
         android:textColor="#22292E"
         android:textSize="17sp" />
+
     <View
         android:id="@+id/image_8"
         android:layout_width="28dp"
         android:layout_height="28dp"
         android:layout_marginLeft="130dp"
         android:layout_marginTop="135dp"
-        android:background="@drawable/icon"
-        />
+        android:background="@drawable/icon" />
 
     <Button
         android:id="@+id/tambahsaldo"
         android:layout_width="130dp"
         android:layout_height="36dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="188dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="188dp"
         android:layout_marginTop="120dp"
-        android:text="+ Top Up"
-        android:textAllCaps="false"
-        android:backgroundTint="@color/blue_"
+        android:backgroundTint="@color/coklat"
         android:shadowRadius="8"
-        />
+        android:text="+ Top Up"
+        android:textAllCaps="false" />
 
     <TextView
         android:id="@+id/pilihan_ter"
@@ -166,7 +163,7 @@
         android:gravity="top"
         android:lineSpacingExtra="-1sp"
         android:text="lihat semua"
-        android:textColor="#367CFF"
+        android:textColor="@color/coklat"
         android:textSize="17sp" />
 
     <ImageView
@@ -177,15 +174,15 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="230dp"
         android:background="@drawable/kotak_arabica" />
+
     <ImageButton
         android:layout_width="266dp"
         android:layout_height="168dp"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="25dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
         android:layout_marginTop="230dp"
-        android:background="@drawable/arabica"
-        />
+        android:background="@drawable/arabica" />
 
     <TextView
         android:layout_width="248dp"
@@ -197,20 +194,20 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold" />
+
     <Button
+        android:id="@+id/button"
         android:layout_width="215dp"
         android:layout_height="40dp"
-        android:backgroundTint="@color/blue_"
-        android:text="Tambah ke Keranjang"
-        android:id="@+id/button"
         android:layout_alignParentLeft="true"
-        android:layout_marginLeft="50dp"
         android:layout_alignParentTop="true"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="435dp"
-        android:textAllCaps="false"
-        android:shadowRadius="8"
+        android:backgroundTint="@color/coklat"
         android:fontFamily="@font/nunito"
-        />
+        android:shadowRadius="8"
+        android:text="Tambah ke Keranjang"
+        android:textAllCaps="false" />
 
     <TextView
         android:id="@+id/beli_lagi"
@@ -279,19 +276,17 @@
         android:layout_alignParentTop="true"
         android:layout_marginLeft="50dp"
         android:layout_marginTop="715dp"
-        android:backgroundTint="@color/blue_"
+        android:backgroundTint="@color/coklat"
         android:fontFamily="@font/nunito"
         android:shadowRadius="8"
         android:text="Tambah ke Keranjang"
         android:textAllCaps="false" />
 
-
     <FrameLayout
         android:layout_width="390dp"
         android:layout_height="83.5dp"
         android:layout_marginTop="763dp"
-        android:background="@drawable/tab_bar"
-        />
+        android:background="@drawable/tab_bar" />
 
     <Button
         android:layout_width="48dp"
@@ -300,33 +295,33 @@
         android:layout_marginTop="770dp"
         android:background="@drawable/home"
         />
+
     <Button
         android:layout_width="48dp"
         android:layout_height="49dp"
         android:layout_marginLeft="91dp"
         android:layout_marginTop="770dp"
-        android:background="@drawable/pesanan"
-        />
+        android:background="@drawable/pesanan" />
+
     <Button
         android:layout_width="48dp"
         android:layout_height="49dp"
         android:layout_marginLeft="159dp"
         android:layout_marginTop="770dp"
-        android:background="@drawable/keranjang"
-        />
+        android:background="@drawable/keranjang" />
+
     <Button
         android:layout_width="48dp"
         android:layout_height="49dp"
         android:layout_marginLeft="232dp"
         android:layout_marginTop="770dp"
-        android:background="@drawable/chat"
-        />
+        android:background="@drawable/chat" />
+
     <Button
         android:layout_width="48dp"
         android:layout_height="49dp"
         android:layout_marginLeft="305dp"
         android:layout_marginTop="770dp"
-        android:background="@drawable/profile"
-        />
+        android:background="@drawable/profile" />
 
 </RelativeLayout>
